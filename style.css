@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   background-color: #000000;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: monospace;
   color: #ffffff;
   
 }
