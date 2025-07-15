@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" defer></script>
+  <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid justify-content-center">
+      <a class="nav-link" href="index.html">Apresentação</a>
+      <a class="nav-link" href="curriculo.html">Currículo</a>
+      <a class="nav-link" href="portfolio.html">Portfólio</a>
+    </div>
+  </nav>
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+      <div class="col-4 coluna-fixa d-flex flex-column align-items-center justify-content-top">
+        <img src="icon.png" alt="Foto Perfil" class="foto-perfil mb-3" />
+        <h5>Cauê Maia</h5>
+
+        <div class="caixa-contato">
+          <a href="mailto:caue.maia@email.com" class="text-decoration-none text-white" target="_blank">
+            <i class="fa fa-envelope me-1"></i> Email: caue.maia@email.com
+          </a>
+        </div>
+        <div class="caixa-contato">
+          <a href="https://github.com/Minor-bot" class="text-decoration-none text-white" target="_blank">
+            <i class="fab fa-github me-1"></i> GitHub: github.com/Minor-bot
+          </a>
+        </div>
+        <div class="caixa-contato">
+          <a href="https://www.google.com/maps/place/Lages,+SC" class="text-decoration-none text-white" target="_blank">
+            <i class="fa-solid fa-location-dot me-1"></i> Lages-SC
+          </a>
+        </div>
+      </div>
+      <div class="col-6 d-flex flex-column p-5">
+        <h1 class="mb-4 text-white">Portfólio</h1>
+
+        <div id="carouselPortfolio" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Hyunapp.png" class="d-block w-100" alt="Projeto 1" />
+              <div class="carousel-caption-custom">
+                <h5>HyunApp</h5>
+                <p>Aplicativo para Monitoramento e cuidado de Idosos</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Hyun.png" class="d-block w-100" alt="Projeto 2" />
+              <div class="carousel-caption-custom">
+                <h5>Hyun</h5>
+                <p>Robô para cuidado de idosos</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle p-2"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle p-2"></span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
